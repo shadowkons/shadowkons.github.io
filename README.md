@@ -74,17 +74,6 @@ Experienced in translating complex offensive security findings into actionable e
 
 ---
 
-## 💻 Portfolio Engineering & Architecture
-
-This repository contains the source code for my personal interactive portfolio website:
-
-* **Pure Semantic HTML5**: Accessible, W3C standards-compliant semantic markup with SEO metadata.
-* **Modern CSS3 Design System**: Custom properties (CSS variables), glassmorphism (`backdrop-filter`), CSS Grid, and responsive layouts.
-* **Dependency-Free Vanilla JS (ES6+)**: Zero framework overhead for instant load times; utilizes the `IntersectionObserver` API for smooth scroll animations and the HTML5 Canvas API for ambient particle rendering.
-* **Secure Form Dispatch**: Direct inquiry routing via FormSubmit.co API with honeypot anti-spam protection.
-
----
-
 ## 📬 Contact & Inquiries
 
 * **Email**: [abhilashsalim09@gmail.com](mailto:abhilashsalim09@gmail.com)
