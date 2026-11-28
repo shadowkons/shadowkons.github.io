@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
   <title>ABHILASH SALIM // VAPT ANALYST &amp; SECURITY RESEARCHER</title>
-  <meta name="description" content="Portfolio of Abhilash Salim - VAPT Analyst, Security Researcher &amp; Penetration Tester. Web Application Security, Network Vulnerability Assessment, and Python Automation.">
+  <meta name="description" content="Portfolio of Abhilash Salim - VAPT Analyst, Security Researcher &amp; Penetration Tester. Web Application Security, Network Vulnerability Assessment, and Offensive Security.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700;800&family=Plus+Jakarta+Sans:wght@500;600;700;800;900&display=swap" rel="stylesheet">
@@ -158,10 +158,7 @@
         <div class="about-left">
           <div class="about-bio-card">
             <p class="bio-text">
-              <strong>Passionate and adaptable Penetration Tester with hands-on expertise in web application security auditing and manual penetration testing.</strong>
-            </p>
-            <p class="bio-text">
-              <strong>Experienced in utilizing modern scanning tools, terminal environments, and custom automation scripts to uncover critical flaws. Eager to leverage technical problem-solving skills, ethical hacking methodologies, and continuous learning to protect enterprise digital assets.</strong>
+              <strong>Detail-oriented Penetration Tester with hands-on experience in manual web application security testing, network enumeration, and vulnerability assessment. Skilled in leveraging Burp Suite, Nmap, and Kali Linux workflows to uncover logic and authentication flaws, build clear PoCs, and help teams secure critical digital assets.</strong>
             </p>
             
             <div class="toolkit-heading">CORE TOOLKIT &amp; PROFICIENCIES</div>
@@ -172,8 +169,6 @@
               <span class="tool-pill">Port Scanning &amp; Enumeration</span>
               <span class="tool-pill">Packet Analysis</span>
               <span class="tool-pill">Vulnerability Assessment Reporting</span>
-              <span class="tool-pill">OAuth Flow Security</span>
-              <span class="tool-pill">Python Automation</span>
               <span class="tool-pill">Linux Systems</span>
               <span class="tool-pill">Windows Systems</span>
               <span class="tool-pill">Web Application Vulnerability Assessment</span>
@@ -261,26 +256,10 @@
 
         <div class="skill-item-card">
           <div class="skill-meta">
-            <span class="skill-name">Python &amp; Bash Scripting</span>
-            <span class="skill-level advanced">ADVANCED</span>
-          </div>
-          <div class="skill-sub">Automated Recon Scripts, AsyncIO Network Clients, Custom Fuzzers</div>
-        </div>
-
-        <div class="skill-item-card">
-          <div class="skill-meta">
             <span class="skill-name">Linux Systems (Kali, Ubuntu)</span>
             <span class="skill-level expert">EXPERT</span>
           </div>
           <div class="skill-sub">CLI Environments, Permission Management, Shell Scripting, Security Distros</div>
-        </div>
-
-        <div class="skill-item-card">
-          <div class="skill-meta">
-            <span class="skill-name">DevOps &amp; Virtualization</span>
-            <span class="skill-level advanced">ADVANCED</span>
-          </div>
-          <div class="skill-sub">Docker Container Security, Git Version Control, VirtualBox Isolation</div>
         </div>
 
         <div class="skill-item-card">
@@ -299,15 +278,12 @@
           <div class="arsenal-badge"><span class="tool-symbol">🎯</span>Burp Suite Pro</div>
           <div class="arsenal-badge"><span class="tool-symbol">⚡</span>Nmap</div>
           <div class="arsenal-badge"><span class="tool-symbol">🐉</span>Kali Linux</div>
-          <div class="arsenal-badge"><span class="tool-symbol">🐍</span>Python 3</div>
           <div class="arsenal-badge"><span class="tool-symbol">🦈</span>Wireshark</div>
           <div class="arsenal-badge"><span class="tool-symbol">💣</span>Metasploit</div>
           <div class="arsenal-badge"><span class="tool-symbol">🔑</span>Hashcat</div>
-          <div class="arsenal-badge"><span class="tool-symbol">🐳</span>Docker</div>
           <div class="arsenal-badge"><span class="tool-symbol">🐚</span>Bash CLI</div>
           <div class="arsenal-badge"><span class="tool-symbol">🪟</span>Windows</div>
           <div class="arsenal-badge"><span class="tool-symbol">🚀</span>Postman</div>
-          <div class="arsenal-badge"><span class="tool-symbol">📦</span>Git</div>
           <div class="arsenal-badge"><span class="tool-symbol">💻</span>Ubuntu</div>
         </div>
       </div>
@@ -339,16 +315,14 @@
           
           <!-- Project 1: Infinity-Scan -->
           <div class="project-card">
-            <div class="project-card-badge">RECON TOOL // ASYNCIO</div>
+            <div class="project-card-badge">RECON TOOL</div>
             <h3 class="project-card-title">Infinity-Scan</h3>
             <div class="project-tags">
-              <span class="tag">Python</span>
-              <span class="tag">AsyncIO</span>
               <span class="tag">Dir Brute-force</span>
               <span class="tag">CLI Tool</span>
             </div>
             <p class="project-card-desc">
-              High-speed asynchronous directory and endpoint discovery engine written in Python. Incorporates custom HTTP header injection, wildcard response detection, rate-limiting bypass logic, and automated attack surface mapping.
+              An interactive command-line subdirectory enumeration tool with selectable scan depth that prompts for options step by step instead of requiring users to memorize flags.
             </p>
             <div class="project-actions">
               <a href="https://github.com/shadowkons" target="_blank" class="card-btn-action">
@@ -363,9 +337,7 @@
             <div class="project-card-badge">CRYPTOGRAPHIC TRIAGE</div>
             <h3 class="project-card-title">HashHound-Pro</h3>
             <div class="project-tags">
-              <span class="tag">Python</span>
               <span class="tag">Hashcat</span>
-              <span class="tag">Regex Engine</span>
               <span class="tag">80+ Formats</span>
             </div>
             <p class="project-card-desc">
@@ -424,7 +396,7 @@
             <span class="tag highlight">Intigriti Platform</span>
           </div>
           <p class="project-card-desc">
-            Discovered a critical Improper Session Management flaw in an internet-facing OAuth authorization flow on the Intigriti platform. Authored an end-to-end reproducible Proof of Concept demonstrating unauthorized account access and session token hijacking.
+            Discovered a critical Improper Session Management (Authentication Bypass) vulnerability during a web application login flow on the Intigriti platform, and authored a reproducible Proof-of-Concept (PoC) report demonstrating unauthorized authentication handling.
           </p>
           
           <!-- Research Findings Breakdown Strip (Severity and Triage Status removed) -->
@@ -519,19 +491,6 @@
             <div class="service-info">
               <div class="service-title">Manual Penetration Testing &amp; API Audits</div>
               <div class="service-desc">In-depth manual inspection of business logic flaws, OAuth session tokens, REST/GraphQL endpoints, and privilege escalation.</div>
-            </div>
-          </div>
-          <div class="service-right">
-            <span class="badge-status">HANDS-ON</span>
-          </div>
-        </div>
-
-        <div class="service-row">
-          <div class="service-left">
-            <div class="service-icon">⚡</div>
-            <div class="service-info">
-              <div class="service-title">Custom Python Recon Automation</div>
-              <div class="service-desc">Engineering bespoke asynchronous CLI reconnaissance tools, signature matchers, and automated Hashcat cracking workflows.</div>
             </div>
           </div>
           <div class="service-right">
